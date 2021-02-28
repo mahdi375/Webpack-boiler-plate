@@ -1,0 +1,1 @@
+(()=>{var e="excec@sgm.ascv",c=document.querySelector("body"),o=0;c.addEventListener("click",(function(){o++,console.log(o,e)})),console.log("Hit",e)})();
