@@ -1,3 +1,4 @@
+import "./styles/first.scss";
 import email, { users } from './scripts/data';
 
 const body = document.querySelector('body');
