@@ -1,11 +1,15 @@
-import "./styles/first.scss";
+// basic styles
+import './styles/basics.scss';
+
+// some initial datas
 import email, { users } from './scripts/data';
 
-const body = document.querySelector('body');
-let i = 0;
-body.addEventListener('click', () => {
-    i++;
-    console.log(i, email);
-})
-console.log(users);
-console.log('Hit', email);
+//navbar component
+import Navbar from './scripts/nav';
+
+//show some data
+console.log(email, users);
+
+//render navbar
+const nav = new Navbar(document.querySelector('nav'));
+nav.init();
