@@ -1,1 +1,1 @@
-(()=>{var e="excec@sgm.ascv",c=document.querySelector("body"),o=0;c.addEventListener("click",(function(){o++,console.log(o,e)})),console.log("Hit",e)})();
+(()=>{"use strict";var e="ghasemim875@gmail.com",o=document.querySelector("body"),c=0;o.addEventListener("click",(function(){c++,console.log(c,e)})),console.log(["taghee","naghee","ali"]),console.log("Hit",e)})();
